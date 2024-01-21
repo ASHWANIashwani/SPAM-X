@@ -20,10 +20,10 @@ from telethon import events
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        altron = await e.reply(f"» 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥_ᴏᴘ_ʙᴏʟᴛᴀ", parse_mode=None, link_preview=None)
+        altron = await e.reply(f"» 4sᴛ 𝐎ɴ 𝐅ɪʀᴇ🔥", parse_mode=None, link_preview=None)
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"__𝐾𝐼𝑆𝐾𝐼 𝐺𝐴𝐴𝑁𝐷 𝑀𝐴𝑅𝑁𝐼 𝐵𝑂𝑆𝑆__\n» `{mp} ms`")
+        await altron.edit(f"☞︎💘𝐁𝙷𝙰𝙶 𝐌𝙲.. #_4sᴛ 𝐀𝙰𝙶𝙰𝚈𝙸⚡☜︎\n» `{mp} ms`")
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -38,7 +38,7 @@ async def ping(e):
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f" ᴏʏᴇᴇ ʀᴜᴋᴊᴀᴀ!! ʙᴏᴛ ʀᴇsᴛᴀʀᴛ ʜᴏ ʀʜᴀ 🥵")
+        await e.reply(f" ᴏʏᴇᴇ ʀᴜᴋᴊᴀᴀ!! #_4𝚂𝚃 𝙱𝙾𝚃𝚂 ʀᴇsᴛᴀʀᴛ ʜᴏ ʀʜᴀ 🥵")
         try:
             await MK1.disconnect()
         except Exception:
@@ -99,7 +99,7 @@ sudousers = os.environ.get("SUDO_USER", None)
 @MK10.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
 async def addsudo(event):
     if event.sender_id == OWNER_ID:
-        ok = await event.reply(f"» __ᴇᴋ ɴᴀʏᴀ ʙᴇᴛᴀ ᴀᴅᴅ ʜᴏ ʀʜᴀ...__")
+        ok = await event.reply(f"» 🎀𝐀𝙰𝙶𝙰𝚈 #_4𝚂𝚃 𝐊𝙴 𝐋𝙰𝙽𝙳 𝐊𝙰 𝐁𝙰𝙰𝙻🎁")
         mks = "SUDO_USER"
         target = ""
         if HEROKU_APP_NAME is not None:
@@ -119,7 +119,7 @@ async def addsudo(event):
             newsudo = f"{sudousers} {target}"
         else:
             newsudo = f"{target}"
-        await ok.edit(f"» **ɴᴇᴡ ʙᴇᴛᴀ**: `{target}`\n» `ʙᴏᴛ ғɪʀ sᴇ sᴜʀᴜ ʜᴏ ʀʜᴀ...`")
+        await ok.edit(f"» **🎋 #_4sᴛ 𝐊𝙴 𝐋𝙰𝙽𝙳 𝐊𝙰 𝐁𝙰𝙰𝙻 𝐌𝙸𝙻 𝐆𝙰𝚈𝙰**: `{target}`\n» `🕸𝐑𝚄𝙺𝙹𝙰 𝐅𝙰𝚃𝙴 𝐇𝚄𝚈𝙴 𝐂𝙾𝙽𝙳𝙰𝙼 𝐊𝙴 𝐍𝙰𝚃𝙸𝙹𝙴..𝐖𝙰𝙸𝚃 10𝚂𝙴𝙲🍃`")
         heroku_var[mks] = newsudo   
    
      
