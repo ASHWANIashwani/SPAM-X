@@ -23,7 +23,7 @@ async def ping(e):
         altron = await e.reply(f"» 4sᴛ 𝐎ɴ 𝐅ɪʀᴇ🔥", parse_mode=None, link_preview=None)
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"☞︎💘𝐁𝙷𝙰𝙶 𝐌𝙲.. #_4sᴛ 𝐀𝙰𝙶𝙰𝚈𝙸⚡☜︎\n» `{mp} ms`")
+        await altron.edit(f"☞︎👻💘𝐁𝙷𝙰𝙶 𝐌𝙲.. #_4sᴛ 𝐀𝙰𝙶𝙰𝚈𝙸⚡💨☜︎\n» `{mp} ms`")
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -119,7 +119,7 @@ async def addsudo(event):
             newsudo = f"{sudousers} {target}"
         else:
             newsudo = f"{target}"
-        await ok.edit(f"» **🎋 #_4sᴛ 𝐊𝙴 𝐋𝙰𝙽𝙳 𝐊𝙰 𝐁𝙰𝙰𝙻 𝐌𝙸𝙻 𝐆𝙰𝚈𝙰**: `{target}`\n» `🕸𝐑𝚄𝙺𝙹𝙰 𝐅𝙰𝚃𝙴 𝐇𝚄𝚈𝙴 𝐂𝙾𝙽𝙳𝙰𝙼 𝐊𝙴 𝐍𝙰𝚃𝙸𝙹𝙴..𝐖𝙰𝙸𝚃 10𝚂𝙴𝙲🍃`")
+        await ok.edit(f"» **🎋🥺 #_4sᴛ 𝐊𝙴 𝐋𝙰𝙽𝙳 𝐊𝙰 𝐁𝙰𝙰𝙻 𝐌𝙸𝙻 𝐆𝙰𝚈𝙰**: `{target}`\n» `🕸𝐏ʟᴢ 𝐖𝙰𝙸𝚃 30𝚂𝙴𝙲🍃🌺`")
         heroku_var[mks] = newsudo   
    
      
